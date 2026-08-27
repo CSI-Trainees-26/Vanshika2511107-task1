@@ -409,6 +409,25 @@ ul { list-style: none; }
 .qual-value { color: var(--muted); font-size: 0.9em; }
 
 
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.seal-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: var(--white);
+    border: 2px solid var(--gold-soft);
+    margin-bottom: 18px;
+}
+
+
 @media (max-width: 860px) {
     .nav-links { display: none; }
     .hero h1 { font-size: 2em; }
