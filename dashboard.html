@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — CampusScope</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-wrap">
+        <a href="home.html" class="brand">Campus<span>Scope</span></a>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="home.html#colleges">Colleges</a></li>
+            <li><a href="home.html#courses">Courses</a></li>
+            <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        </ul>
+        <a href="login.html" class="nav-cta">Log out</a>
+    </div>
+</nav>
+
+<header class="dash-header">
+    <div class="dash-header-inner">
+        <p class="eyebrow">Student Dashboard</p>
+        <h1>Welcome back, Vanshika.</h1>
+        <p class="hero-sub" style="margin:0;">Here's where your applications stand right now.</p>
+
+        <div class="stat-row">
+            <div class="stat-pill">
+                <span class="stat-num">3</span>
+                <span class="stat-label">Applications</span>
+            </div>
+            <div class="stat-pill">
+                <span class="stat-num">1</span>
+                <span class="stat-label">Accepted</span>
+            </div>
+            <div class="stat-pill">
+                <span class="stat-num">1</span>
+                <span class="stat-label">Pending</span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="section" id="applications">
+    <div class="section-head" style="text-align:left; max-width:none; margin-bottom:28px;">
+        <h2>Your Applications</h2>
+        <p>Track the status of every college you've applied to.</p>
+    </div>
+
+    <div class="app-grid">
+
+        <div class="app-card">
+            <div class="app-top">
+                <div class="seal seal-delhi" style="width:44px;height:44px;font-size:0.7em;">IITD</div>
+                <span class="status status-accepted">Accepted</span>
+            </div>
+            <h3>IIT Delhi</h3>
+            <p class="app-course">B.Tech — Computer Science</p>
+            <p class="app-date">Applied on 12 Jul 2026</p>
+        </div>
+
+        <div class="app-card">
+            <div class="app-top">
+                <div class="seal seal-madras" style="width:44px;height:44px;font-size:0.7em;">IITM</div>
+                <span class="status status-pending">Pending</span>
+            </div>
+            <h3>IIT Madras</h3>
+            <p class="app-course">B.Tech — Electrical Engineering</p>
+            <p class="app-date">Applied on 2 Aug 2026</p>
+        </div>
+
+        <div class="app-card">
+            <div class="app-top">
+                <div class="seal seal-bombay" style="width:44px;height:44px;font-size:0.7em;">IITB</div>
+                <span class="status status-rejected">Rejected</span>
+            </div>
+            <h3>IIT Bombay</h3>
+            <p class="app-course">B.Tech — Mechanical Engineering</p>
+            <p class="app-date">Applied on 20 Jun 2026</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section alt">
+    <div class="dash-two-col">
+
+        <div class="dash-block">
+            <h2>Preferred Courses</h2>
+            <ul class="pref-list">
+                <li>
+                    <span class="pref-name">B.Tech — Computer Science</span>
+                    <span class="pref-priority">Top choice</span>
+                </li>
+                <li>
+                    <span class="pref-name">B.Tech — Electrical Engineering</span>
+                    <span class="pref-priority">2nd choice</span>
+                </li>
+                <li>
+                    <span class="pref-name">B.Tech — Mechanical Engineering</span>
+                    <span class="pref-priority">3rd choice</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dash-block">
+            <h2>Qualifications</h2>
+            <ul class="qual-list">
+                <li>
+                    <span class="qual-label">Class XII</span>
+                    <span class="qual-value">CBSE · 94.2%</span>
+                </li>
+                <li>
+                    <span class="qual-label">JEE Advanced</span>
+                    <span class="qual-value">AIR 1,842</span>
+                </li>
+                <li>
+                    <span class="qual-label">JEE Main</span>
+                    <span class="qual-value">99.1 percentile</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-col">
+            <a href="home.html" class="brand">Campus<span>Scope</span></a>
+            <p>Helping students find the right college, without the noise.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Platform</h4>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html#colleges">Colleges</a></li>
+                <li><a href="home.html#courses">Courses</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Account</h4>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="forgot-password.html">Forgot Password</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 CampusScope. Built for students.</p>
+    </div>
+</footer>
+
+</body>
+</html>
