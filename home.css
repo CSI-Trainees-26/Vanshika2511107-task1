@@ -196,6 +196,7 @@ ul { list-style: none; }
     color: var(--white);
     margin-bottom: 18px;
     border: 2px solid var(--gold-soft);
+    overflow: hidden;
 }
 .seal-delhi  { background: var(--navy); }
 .seal-madras { background: #7A3B2E; }
@@ -421,7 +422,7 @@ ul { list-style: none; }
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
     background: var(--white);
     border: 2px solid var(--gold-soft);
     margin-bottom: 18px;
