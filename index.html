@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CampusScope — Find Your College</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-wrap">
+        <a href="home.html" class="brand">Campus<span>Scope</span></a>
+        <ul class="nav-links">
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="#colleges">Colleges</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+        <a href="login.html" class="nav-cta">Login</a>
+    </div>
+</nav>
+<div class="banner">
+    <img src="graduation-banner.jpg" alt="graduating students celebrating" class="banner-img">
+</div>
+<header class="hero">
+    <div class="hero-inner">
+        <p class="eyebrow">Class of 2027 admissions are open</p>
+        <h1>Find the campus<br>that fits your ambition.</h1>
+        <p class="hero-sub">Compare top institutes, explore courses, and track every application — in one place built for students, not brochures.</p>
+        <div class="hero-search">
+            <input type="text" placeholder="Search colleges, cities, or courses">
+            <button>Search</button>
+        </div>
+    </div>
+</header>
+
+<section class="section" id="colleges">
+    <div class="section-head">
+        <h2>Top Rated Colleges</h2>
+        <p>Ranked by student outcomes, faculty, and placement record this year.</p>
+    </div>
+
+    <div class="college-grid">
+
+        <a href="college-details.html" class="college-card clickable">
+            <span class="rank">01</span>
+             <img src="iit-delhi-logo.jpg" alt="IIT Delhi logo" class="seal-img">
+            <h3>IIT Delhi</h3>
+            <p class="location">New Delhi, India</p>
+            <p class="rating">★ 4.8 <span>· 2,140 reviews</span></p>
+            <span class="card-cta">View College →</span>
+        </a>
+
+        <div class="college-card">
+            <span class="rank">02</span>
+            <img src="iit-madras-logo.jpg" alt="IIT Madras logo" class="seal-img">
+            <h3>IIT Madras</h3>
+            <p class="location">Chennai, India</p>
+            <p class="rating">★ 4.8 <span>· 1,980 reviews</span></p>
+            <span class="card-cta muted">Coming soon</span>
+        </div>
+
+        <div class="college-card">
+            <span class="rank">03</span>
+            <img src="iit-bombay-logo.jpg" alt="IIT Bombay logo" class="seal-img">
+            <h3>IIT Bombay</h3>
+            <p class="location">Mumbai, India</p>
+            <p class="rating">★ 4.7 <span>· 2,310 reviews</span></p>
+            <span class="card-cta muted">Coming soon</span>
+        </div>
+
+    </div>
+</section>
+
+<section class="section alt" id="courses">
+    <div class="section-head">
+        <h2>Popular Courses</h2>
+        <p>Explore what students are applying to most this admission cycle.</p>
+    </div>
+
+    <ul class="course-list">
+        <li class="course-item clickable">
+            <a href="btech.html">
+                <span class="course-name">B.Tech</span>
+                <span class="course-meta">Undergraduate · 4 years</span>
+                <span class="course-arrow">→</span>
+            </a>
+        </li>
+        <li class="course-item disabled">
+            <span class="course-name">M.Tech</span>
+            <span class="course-meta">Postgraduate · 2 years</span>
+            <span class="course-tag">Coming soon</span>
+        </li>
+        <li class="course-item disabled">
+            <span class="course-name">MBA</span>
+            <span class="course-meta">Postgraduate · 2 years</span>
+            <span class="course-tag">Coming soon</span>
+        </li>
+    </ul>
+</section>
+
+<section class="section" id="news">
+    <div class="section-head">
+        <h2>Campus News</h2>
+        <p>Recent updates from the institutes above.</p>
+    </div>
+
+    <div class="news-grid">
+        <article class="news-card">
+            <span class="news-tag">IIT Delhi</span>
+            <h3>New research park to open near campus in 2027</h3>
+            <p>The institute announced a dedicated innovation hub for student-led startups and applied research.</p>
+        </article>
+        <article class="news-card">
+            <span class="news-tag">IIT Madras</span>
+            <h3>Record placement season closes with 98% offers</h3>
+            <p>The graduating batch saw its highest average package to date, led by core engineering roles.</p>
+        </article>
+        <article class="news-card">
+            <span class="news-tag">IIT Bombay</span>
+            <h3>Campus expands hostel capacity for incoming batch</h3>
+            <p>Two new residence blocks will accommodate the growing undergraduate intake starting next term.</p>
+        </article>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-col">
+            <a href="home.html" class="brand">Campus<span>Scope</span></a>
+            <p>Helping students find the right college, without the noise.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Platform</h4>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#colleges">Colleges</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Account</h4>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="forgot-password.html">Forgot Password</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 CampusScope. Built for students.</p>
+    </div>
+</footer>
+
+</body>
+</html>
